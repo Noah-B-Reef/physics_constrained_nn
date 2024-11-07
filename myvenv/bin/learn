@@ -1,0 +1,7 @@
+#!/Users/nreef/Desktop/physics_constrained_nn/myvenv/bin/python3
+
+from absl import app
+from brax.training import learner
+
+if __name__ == '__main__':
+  app.run(learner.main)
